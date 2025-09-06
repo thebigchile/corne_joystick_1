@@ -229,3 +229,6 @@ combos:
   l: [Penguin, MacOS]
 - p: [44, 45]
   k: {t: MacOS, h: toggle}
+- p: [10, 11]
+  k: $$mdi:bluetooth-off$$
+  l: [SYMBOL]
