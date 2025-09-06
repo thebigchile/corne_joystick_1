@@ -135,6 +135,12 @@
             timeout-ms = <30>;
             layers = <0 3>;
         };
+
+        to_macOS {
+            bindings = <&tog 3>;
+            key-positions = <44 45>;
+            timeout-ms = <30>;
+        };
     };
 
     keymap {
