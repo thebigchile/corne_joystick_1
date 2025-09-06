@@ -227,3 +227,5 @@ combos:
 - p: [4, 8]
   k: $$mdi:apple-keyboard-caps$$
   l: [Penguin, MacOS]
+- p: [44, 45]
+  k: {t: MacOS, h: toggle}

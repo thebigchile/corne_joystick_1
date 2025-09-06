@@ -591,6 +591,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="476" y="22" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="481" y="26" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
+<g class="combo combopos-9">
+<path d="M490,225 l-123,0" class="combo"/>
+<path d="M490,225 l123,0" class="combo"/>
+<rect rx="6" ry="6" x="476" y="212" width="28" height="26" class="combo"/>
+<a href="#MacOS">
+<text x="490" y="225" class="combo tap layer-activator">MacOS</text>
+</a><text x="490" y="236" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-NUMBER">
@@ -850,6 +858,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="294" y="56" width="28" height="26" class="combo"/>
 <use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="299" y="60" height="18" width="18.0" class="combo tap glyph mdi:volume-off"/>
 </g>
+<g class="combo combopos-1">
+<path d="M490,225 l-123,0" class="combo"/>
+<path d="M490,225 l123,0" class="combo"/>
+<rect rx="6" ry="6" x="476" y="212" width="28" height="26" class="combo"/>
+<a href="#MacOS">
+<text x="490" y="225" class="combo tap layer-activator">MacOS</text>
+</a><text x="490" y="236" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 637)" class="layer-SYMBOL">
@@ -1107,6 +1123,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g class="combo combopos-0">
+<path d="M490,225 l-123,0" class="combo"/>
+<path d="M490,225 l123,0" class="combo"/>
+<rect rx="6" ry="6" x="476" y="212" width="28" height="26" class="combo"/>
+<a href="#MacOS">
+<text x="490" y="225" class="combo tap layer-activator">MacOS</text>
+</a><text x="490" y="236" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1407,6 +1431,14 @@ rect.held, rect.combo.held {
 <path d="M490,35 l219,0" class="combo"/>
 <rect rx="6" ry="6" x="476" y="22" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="481" y="26" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
+</g>
+<g class="combo combopos-9">
+<path d="M490,225 l-123,0" class="combo"/>
+<path d="M490,225 l123,0" class="combo"/>
+<rect rx="6" ry="6" x="476" y="212" width="28" height="26" class="combo"/>
+<a href="#MacOS">
+<text x="490" y="225" class="combo tap layer-activator">MacOS</text>
+</a><text x="490" y="236" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
