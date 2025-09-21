@@ -44,10 +44,10 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-tab$$', h: NUMBER}
   - {t: '$$mdi:backspace-reverse-outline$$', h: SYMBOL}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: RIGHT WIN}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
