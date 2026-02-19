@@ -123,7 +123,7 @@
         };
 
         r_brace {
-            bindings = <&kp LEFT_BRACE>;
+            bindings = <&kp RIGHT_BRACE>;
             key-positions = <37 38>;
             timeout-ms = <30>;
             layers = <0 1>;
@@ -148,12 +148,6 @@
             timeout-ms = <30>;
             layers = <3>;
         };
-
-        print_mac {
-            bindings = <&kp LC(LS(NUMBER_4))>;
-            key-positions = <8 9 10>;
-            layers = <1>;
-        };
     };
 
     keymap {
@@ -175,7 +169,7 @@
 &none  &kp Q                     &kp W                 &kp E                 &kp R                   &kp T                         &kp UP                &kp Y         &kp U                    &kp I                  &kp O                  &kp P                              &none
 &none  &home_row LEFT_CONTROL A  &home_row LEFT_ALT S  &home_row LEFT_GUI D  &home_row LEFT_SHIFT F  &kp G               &kp LEFT  &kp ENTER  &kp RIGHT  &kp H         &home_row RIGHT_SHIFT J  &home_row RIGHT_GUI K  &home_row RIGHT_ALT L  &home_row RIGHT_CONTROL SEMICOLON  &none
 &none  &kp Z                     &kp X                 &kp C                 &kp V                   &kp B      &none              &kp DOWN              &kp N         &kp M                    &kp COMMA              &kp DOT                &kp FSLH                           &none
-                                                       &kp ESCAPE            &kp BACKSPACE           &lt 2 TAB                                           &lt 3 DELETE  &kp SPACE                &kp ENTER
+                                                       &kp ESCAPE            &kp BACKSPACE           &lt 4 TAB                                           &lt 3 DELETE  &kp SPACE                &kp ENTER
             >;
         };
 
@@ -199,6 +193,18 @@
 &trans  &kp AMPERSAND  &kp TILDE  &kp ASTERISK  &kp MINUS       &kp BACKSLASH  &trans                    &mmv MOVE_DOWN                   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none    &none  &none
                                   &trans        &trans          &bt BT_NXT                                                                &kp RET       &trans        &trans
             >;
+        };
+
+        lower_mac {
+            display-name = "NUMBER_MAC";
+            bindings = <
+&trans  &kp LG(LS(NUMBER_4))  &kp PAGE_DOWN   &kp UP_ARROW  &kp PAGE_UP  &kp C_VOLUME_UP                                &mmv MOVE_UP                     &kp N7        &kp N8        &kp N9        &kp MINUS     &kp K_CALCULATOR  &none
+&trans  &kp LG(A)             &kp LEFT_ARROW  &kp DOWN      &kp RIGHT    &kp C_VOL_DN                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS      &kp SLASH         &none
+&trans  &kp LG(Z)             &kp LG(X)       &kp LG(C)     &kp LG(V)    &tap_d_playnext  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK  &none             &none
+                                              &trans        &trans       &trans                                                                          &none         &kp N0        &kp ENTER
+            >;
+
+            sensor-bindings = <&scroll_encoder>;
         };
     };
 };
