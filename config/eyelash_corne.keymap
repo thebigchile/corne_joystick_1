@@ -135,7 +135,7 @@
             bindings = <
 &trans  &kp PRINTSCREEN  &kp PAGE_DOWN   &kp UP_ARROW    &kp PAGE_UP  &kp C_VOLUME_UP                                  &mmv MOVE_UP                     &kp NUMBER_7     &kp NUMBER_8     &kp N9           &none  &kp KP_NUMLOCK  &none
 &trans  &kp LC(A)        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT    &kp C_VOLUME_DOWN                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp N6           &none  &none           &none
-&trans  &kp LC(Z)        &kp LC(X)       &kp LC(C)       &kp LC(V)    &tab_dance         &kp C_MUTE                    &mmv MOVE_DOWN                   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none  &none           &none
+&trans  &kp LC(Z)        &kp LC(X)       &kp LC(C)       &kp LC(V)    &tab_dance         &kp C_MUTE                    &mmv MOVE_DOWN                   &kp NUMBER_1     &kp KP_N2        &kp KP_NUMBER_3  &none  &none           &none
                                          &trans          &trans       &trans                                                                            &none            &kp N0           &trans
             >;
 
